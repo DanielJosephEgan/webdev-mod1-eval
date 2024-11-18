@@ -92,6 +92,17 @@ hr {
 	text-transform: uppercase;
 }
 
+.flex {
+	display: flex;
+	flex-direction:row;
+}
+
+.flex__item {
+	padding: 1em;
+	border-radius: 1em;
+
+}
+
 .main-article {
 	background-color: #e2e2e2;
 	padding: 1.6rem;
@@ -182,3 +193,4 @@ hr {
 		margin: 0;
 	}
 }
+
